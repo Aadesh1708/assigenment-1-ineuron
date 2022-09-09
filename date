@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include<string.h>
+int main() {
+    char Str[10];
+    printf("Enter the date in standard format: ");
+    scanf("%s",Str);
+    printf("Day –%c%c",Str[0],Str[1]);
+    printf("\nMonth -%c%c",Str[3],Str[4]);
+    printf("\nYear -%c%c%c%c",Str[6],Str[7],Str[8],Str[9]);
+    
+    return 0;
+}
