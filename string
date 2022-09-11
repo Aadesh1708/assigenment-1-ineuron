@@ -8,6 +8,6 @@ int main()
    printf("Enter the string: ");
    scanf("%s", String);
    for(i=0;String[i]!='\0';++i);
-   printf("Lemgth of string is %d",i);
+   printf("Length of string is %d",i);
    return 0;
 }
